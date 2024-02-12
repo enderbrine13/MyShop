@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* ---------------- navigation bar style ---------------- */
+.main-nav{
+    background-color: #F7F7F8;
+}
+.main-nav a{
+    font-size: 20px;
+    color: #3d414a;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.main-nav a:hover{
+    color: #fb6376;
+}
+#selected{color: #5762D5;}
+
+form{
+    width: 400px;
+    color: #3c404a;
+    background-color: #eeeff1;
+    border: 1px solid #3c404a2f;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 50px auto;
+}
+
+.field{
+    width: 93%;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.field:focus{
+    outline: 2px solid #5762D5;
+}
+
+button{
+    width: 100%;
+    background-color: #5762D5;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+button:hover{
+    background-color: #4751c0;
+    cursor: pointer;
+}
+
+form a{
+    text-decoration: none;
+    color: #5762D5;
+}
+form a:hover{
+    width: 150%;
+}
